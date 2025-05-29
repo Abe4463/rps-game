@@ -7,5 +7,8 @@ function getComputerChoice() {
 console.log(getComputerChoice());
 
 function getHumanChoice() {
-  d;
+  const humanChoice = prompt("What is your choice of weapon?");
+  return humanChoice;
 }
+
+console.log(getHumanChoice());
